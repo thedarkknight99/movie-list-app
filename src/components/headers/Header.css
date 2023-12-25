@@ -1,0 +1,84 @@
+/* .header{ */
+    /* background-color: #444649c5; */
+    /* background-color: #444649c5; */
+    /* height: 8rem; */
+/* } */
+/* .headerName{ */
+    /* color: red;
+    font-size: 2rem; */
+    /* margin: 1rem; */
+    /* padding: 16px;
+    max-width: 100vw; */
+/* } */
+
+/* .subHeader{
+    color: white;
+    background-color: grey;
+    margin: 1rem;
+    padding: 4px 6px;
+    font-size: 1rem;
+    cursor: pointer;
+} */
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .headerName {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 8px;
+  }
+  
+  .menuContainer {
+    overflow-x: auto;
+    max-width: 100%; /* Adjust as needed */
+  }
+  .menuContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .subHeader {
+    margin-right: 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: grey;
+    min-width: fit-content;
+    border-radius: 4px;
+    /* align-items: center; */
+    /* text-align: center; */
+
+    /* margin: 1rem; */
+    padding: 4px 6px;
+  }
+
+
+  @media (max-width:700px) {
+    .subHeader {
+        font-size: 12px;
+        margin-right: 12px;
+        padding: 4px;
+    }
+  }
+  /* .subHeader{
+    color: white;
+    background-color: grey;
+    margin: 1rem;
+    padding: 4px 6px;
+    font-size: 1rem;
+    cursor: pointer;
+} */
